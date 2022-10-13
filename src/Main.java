@@ -1,18 +1,28 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
-        int[] days  = {0,31,28,31,30,31,30,31,31,30,31,30,31};
-        String[] week = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
-        int month = sc.nextInt();
-        int day = sc.nextInt();
-        for(int i = 0; i < month; i++) {
-            day += days[i];
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+
+        for(int i = 1; i <= n; i++) {
+            int tmp = i;
+            int sum = i;
+
+            while (tmp > 0) {
+                sum += tmp % 10;
+                tmp /= 10;
+            }
+            if(sum == n) {
+                System.out.printf("%d", i);
+                n = 0;
+                break;
+            }
         }
-        System.out.println(week[day%7]);
+        if(n != 0) {
+            System.out.println("0");
+        }
     }
 }
