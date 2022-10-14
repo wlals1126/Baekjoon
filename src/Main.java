@@ -1,37 +1,28 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int cnt = n;
 
-        int N = Integer.parseInt(br.readLine());
+        for(int i = 0; i < n; i++) {
+            String word = sc.next();
+            boolean a[] = new boolean[26];
 
-        System.out.println(NumberCnt(N));
-    }
-
-    private static int NumberCnt(int N) {
-
-        int cnt = 0;
-
-        if(N<100) {
-            return N;
-        } else {
-            cnt = 99;
-
-            for(int i=100; i<=N; i++) {
-
-                int a = i / 100;
-                int b = (i / 10) % 10;
-                int c = i % 10;
-
-                if(b-a == c-b) {
-                    cnt++;
+            for(int j = 0; j < word.length()-1; j++) {
+                if(word.charAt(j) != word.charAt(j+1)) {
+                    if(a[word.charAt(j+1)-97] == true) {
+                        cnt--;
+                        break;
+                    }
                 }
+                a[word.charAt(j)-97] = true;
             }
         }
-        return cnt;
+        System.out.println(cnt);
     }
 }
