@@ -1,28 +1,37 @@
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
 
-        for(int i = 1; i <= n; i++) {
-            int tmp = i;
-            int sum = i;
+        int N = Integer.parseInt(br.readLine());
 
-            while (tmp > 0) {
-                sum += tmp % 10;
-                tmp /= 10;
-            }
-            if(sum == n) {
-                System.out.printf("%d", i);
-                n = 0;
-                break;
+        System.out.println(NumberCnt(N));
+    }
+
+    private static int NumberCnt(int N) {
+
+        int cnt = 0;
+
+        if(N<100) {
+            return N;
+        } else {
+            cnt = 99;
+
+            for(int i=100; i<=N; i++) {
+
+                int a = i / 100;
+                int b = (i / 10) % 10;
+                int c = i % 10;
+
+                if(b-a == c-b) {
+                    cnt++;
+                }
             }
         }
-        if(n != 0) {
-            System.out.println("0");
-        }
+        return cnt;
     }
 }
