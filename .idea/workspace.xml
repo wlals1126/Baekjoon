@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon1065">
-      <change afterPath="$PROJECT_DIR$/src/Baekjoon1316/Main.java" afterDir="false" />
+    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon 1316">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baekjoon1316/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665664358782</updated>
-      <workItem from="1665664360051" duration="4659000" />
+      <workItem from="1665664360051" duration="5850000" />
     </task>
     <task id="LOCAL-00001" summary="Baekjoon 2231">
       <created>1665664387446</created>
@@ -103,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665708214315</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Baekjoon 1316">
+      <created>1665712261446</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665712261446</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Baekjoon 1316">
+      <created>1665712309416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665712309416</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +141,7 @@
     <MESSAGE value="Baekjoon 2231" />
     <MESSAGE value="Baekjoon 1065" />
     <MESSAGE value="Baekjoon1065" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon1065" />
+    <MESSAGE value="Baekjoon 1316" />
+    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon 1316" />
   </component>
 </project>
