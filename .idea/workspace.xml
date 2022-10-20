@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon 10950">
+    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon 2750">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -56,7 +56,7 @@
       <workItem from="1665750841096" duration="2085000" />
       <workItem from="1665800946419" duration="2378000" />
       <workItem from="1665923258946" duration="2659000" />
-      <workItem from="1666092838347" duration="621000" />
+      <workItem from="1666092838347" duration="2192000" />
     </task>
     <task id="LOCAL-00001" summary="Baekjoon 2231">
       <created>1665664387446</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666011864113</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Baekjoon 2750">
+      <created>1666093586604</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666093586604</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +192,7 @@
     <MESSAGE value="Baekjoon 1978" />
     <MESSAGE value="Baekjoon 1769" />
     <MESSAGE value="Baekjoon 10950" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon 10950" />
+    <MESSAGE value="Baekjoon 2750" />
+    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon 2750" />
   </component>
 </project>
