@@ -1,24 +1,19 @@
 import java.io.*;
-import java.util.Arrays;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int n = Integer.parseInt(br.readLine());
-        Integer[] arr = new Integer[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = Integer.parseInt(br.readLine());
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int temp = 0;
+        for(int i = 1; i <= c; i++) {
+            a %= b;
+            a *= 10;
+            temp = a / b;
         }
-        Arrays.sort(arr);
-
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            sb.append(arr[i] + "\n");
-        }
-        bw.write(sb.toString());
-        bw.flush();
-        bw.close();
-        br.close();
+        System.out.println(temp);
     }
 }
+
+
