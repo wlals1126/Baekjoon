@@ -1,19 +1,18 @@
+import java.util.*;
 import java.io.*;
-import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
-        int temp = 0;
-        for(int i = 1; i <= c; i++) {
-            a %= b;
-            a *= 10;
-            temp = a / b;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        Queue<Integer> q = new LinkedList<>();
+        for(int i = 1; i <=n; i++) {
+            q.add(i);
         }
-        System.out.println(temp);
+        while(q.size() > 1) {
+            System.out.print(q.poll() + " ");
+            q.add(q.poll());
+        }
+        System.out.print(q.poll());
     }
 }
-
-
