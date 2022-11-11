@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon 1312">
+    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon 2161">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1667220418958" duration="7032000" />
       <workItem from="1667305012043" duration="2628000" />
       <workItem from="1667531881168" duration="32000" />
-      <workItem from="1668076552339" duration="1393000" />
+      <workItem from="1668076552339" duration="6310000" />
     </task>
     <task id="LOCAL-00001" summary="Baekjoon 2231">
       <created>1665664387446</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667280236838</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Baekjoon 2161">
+      <created>1668078569967</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668078569967</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +235,7 @@
     <MESSAGE value="Baekjoon 2750" />
     <MESSAGE value="Baekjoon 2751" />
     <MESSAGE value="Baekjoon 1312" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon 1312" />
+    <MESSAGE value="Baekjoon 2161" />
+    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon 2161" />
   </component>
 </project>

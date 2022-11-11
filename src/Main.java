@@ -10,7 +10,7 @@ public class Main {
             q.add(i);
         }
         while(q.size() > 1) {
-            System.out.print(q.poll() + " ");
+            q.remove();
             q.add(q.poll());
         }
         System.out.print(q.poll());
