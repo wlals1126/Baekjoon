@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon 2164">
+    <list default="true" id="93c17377-5b4c-4601-ae89-b883aa5af057" name="Changes" comment="Baekjoon 7568">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -79,7 +79,9 @@
       <workItem from="1668076552339" duration="8392000" />
       <workItem from="1669123183659" duration="16000" />
       <workItem from="1669290547564" duration="878000" />
-      <workItem from="1671021216953" duration="1184000" />
+      <workItem from="1671021216953" duration="1810000" />
+      <workItem from="1671408732936" duration="581000" />
+      <workItem from="1671493712950" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="Baekjoon 2231">
       <created>1665664387446</created>
@@ -214,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668127840515</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Baekjoon 7568">
+      <created>1671022442108</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671022442108</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +257,7 @@
     <MESSAGE value="Baekjoon 1312" />
     <MESSAGE value="Baekjoon 2161" />
     <MESSAGE value="Baekjoon 2164" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon 2164" />
+    <MESSAGE value="Baekjoon 7568" />
+    <option name="LAST_COMMIT_MESSAGE" value="Baekjoon 7568" />
   </component>
 </project>
